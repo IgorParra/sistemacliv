@@ -13,7 +13,7 @@ module.exports = {
             return response.status(400).json({error:"No user found"});
         }
 
-        return response.json(user.name)
+        return response.json(user)
     }
 
 }

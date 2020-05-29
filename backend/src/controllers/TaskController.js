@@ -42,12 +42,13 @@ module.exports = {
         const {id} = request.params;
         const requester = request.headers.authorization;
         console.log(requester)
+        console.log(id)
         const task = await connection('task')
           .where('id',id)
           .select('requester')
           .first();
 
-          if(task.requester!=requester){
+          if(task.requester != requester){
               return response.status(401).json({error:'Operation Not Permited.'});
           };
 
