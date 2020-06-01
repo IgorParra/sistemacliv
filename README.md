@@ -37,7 +37,7 @@ BACKEND:
   
   Após isso, execute o comando "choco" para ver se o Chocolatey foi instalado, caso não consiga executar o chocolatey,feche e abra novamente o PowerShell
   
-  Para instalar o Node com o Chocolatey, digite no PowerShell 
+  Para instalar o Node(Versão LTS, a versão mais estável e com suporte) com o Chocolatey, digite no PowerShell 
   * choco install nodejs-lts
   
   FRONT END:
