@@ -3,6 +3,10 @@ Sistema de Ordens de Serviço para estudo em React, React Native e Node JS :)
 
 Como executar o projeto 
 
+Primeiro vamos clonar o projeto para uma pasta de sua preferência
+<b>Via terminal</b>: 
+ 
+
 BACKEND:
   Para rodar o backend da aplicação é necessário a instalação do NodeJS(é recomendado usar um instalador de pacotes)
   
@@ -41,7 +45,7 @@ BACKEND:
   * choco install nodejs-lts
   
   FRONT END:
-  Com o seu melhor amigo como dev, o seu terminal, execute o comando(certifique-se de não estar na pasta /system32/ do windows, se você usa Windows, pois se estiver no Mac ou no Linux, acho difícil acontecer isso):
+  Com o seu melhor amigo como dev, o seu terminal, execute o comando(certifique-se de não estar na pasta /system32/ do windows
   * npx create-react-app frontend
   
   Abra seu editor de código na pasta onde voce criou seu app e execute no terminal:
