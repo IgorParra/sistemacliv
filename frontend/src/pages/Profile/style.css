@@ -49,21 +49,32 @@
     grid-template-columns: 1fr 1fr;
     grid-gap:24px;
     list-style: none ;
+    
 }
 
 .profile-container ul li{
+    height: 100%;
     background: #fff;
     padding: 24px;
     border-radius: 8px;
     position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 }
 
-.profile-container ul li button{
+.profile-container ul li button#del{
     position: absolute;
     right :24px;
     top:24px;
     border:0;
+}
+
+.profile-container ul li button#submit{
+    border:0;
+    margin-top: 50px;
+    background-color:#00b33c;
+    
 }
 
 .profile-container ul li button:hover{
@@ -72,7 +83,7 @@
 
 .profile-container ul li strong{
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     color:#41414d;
 }
 
@@ -80,9 +91,28 @@
     margin-top:52px 
 }
 
+
+
 .profile-container ul li p{
     color:#737380;
-    line-height: 1px;
+
     font-size: 16px;
 
 }
+
+@media screen and (max-width: 768px){
+    .profile-container ul {
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+        list-style: none;
+    }
+
+    span#welcomeMessage{
+        display:none;
+    }
+
+    #newTask{
+        width: 180px;
+        font-size: 15px;
+    }
+} 

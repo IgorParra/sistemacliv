@@ -28,6 +28,7 @@ routes.get('/user',UserController.index);
 routes.post('/task', TaskController.create)
 routes.get('/task', TaskController.index)
 routes.delete('/task/:id',TaskController.delete);
+routes.put('/task/:id',TaskController.update);
 
 routes.get('/profile',ProfileController.index);
 

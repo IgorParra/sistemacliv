@@ -49,7 +49,14 @@
 
 .register-container .content form input,select,textarea{
     margin-top:15px ;
+    background-color: white;
 }
+
+ input[type='date']{
+    margin-top:15px ;
+    background-color: white;
+}
+
 
  
 
